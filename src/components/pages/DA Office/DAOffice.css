@@ -1,0 +1,46 @@
+.content-wrapper {
+    background-color: white;
+    padding: 30px 70px 30px 70px;
+}
+
+.team-member-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.img-wrapper {
+    width: 180px;
+    margin-right: 30px;
+}
+
+.team-member-description {
+    width: 50%;
+}
+
+.team-member-photo {
+    object-fit: 'contain'; 
+    display: 'flex';
+    align-self: 'flex-start';
+    margin-top: '10px';
+}
+
+.press-releases {
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.style3 {
+}
+
+@media only screen and (max-width: 770px) {
+    .team-member-description {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}

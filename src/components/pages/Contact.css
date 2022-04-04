@@ -1,0 +1,43 @@
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-item {
+    width: 100%;
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+
+.address {
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.contact-item  h6 {
+    font-size: 15px;
+}
+
+.address  p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.office-name {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .contact-item {
+        margin-top: 10px;
+    }
+}

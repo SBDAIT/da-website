@@ -1,0 +1,78 @@
+
+:root {
+    --primary-bg-color: #704b10;
+    --secondary-bg-color: #866321;
+    --primary-text-color: #fdcf95;
+    --section-bg-color: #362103;
+    --section-light-bg-color: #fdcf95;
+    --gray-bg-color: #d1cece;
+    --light-gray-bg-color: #f1efef;
+    --nav-bg-color: #5b3d0d;
+    --header-font: 'Saira Extra Condensed', sans-serif;
+    --secondary-font: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.wrapper {
+    background: radial-gradient(circle, rgba(83,51,8,0) 0%, rgba(83,51,8,1) 95%);
+    width:100%;
+    min-height:100vh;
+}
+
+.container {
+    padding-bottom: 0px;
+}
+
+.content-wrapper {
+    background-color: white;
+    padding: 0px;
+    display: flex;
+    max-width: 1568px;
+}
+
+.content-wrapper-no-flex {
+    background-color: white;
+    padding: 30px 30px;
+}
+
+.main-content {
+    padding: 30px 30px;
+    width: 70%;
+    background-color: rgba(112,112,112,0.05);
+}
+
+.secondary-content {
+    width: 30%;
+    padding: 30px 30px;
+    background-color: rgba(116,149,203,0.05);
+}
+
+.secondary-content  ul {
+    padding: 0px;
+}
+
+.secondary-content  li {
+    padding: 5px 0px;
+}
+
+.secondary-content  p {
+    padding: 0px 0px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 770px) {
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-content {
+        padding: 30px 30px;
+        width: 100%;
+    }
+    
+    .secondary-content {
+        width: 100%;
+        padding: 50px 30px;
+        background-color: #f1efef;
+    }
+}
